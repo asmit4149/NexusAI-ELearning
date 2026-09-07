@@ -59,7 +59,7 @@ const Dashboard = () => {
       className="container mx-auto px-4 py-8 sm:px-6 lg:px-8 max-w-7xl"
     >
       {/* Premium Hero Section */}
-      <motion.div variants={itemVariants} className="mb-12 relative p-10 rounded-[2rem] premium-glass">
+      <motion.div variants={itemVariants} className="mb-12 relative p-6 md:p-10 rounded-[2rem] premium-glass">
         {/* Animated Background Elements */}
         <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-primary-500/30 dark:bg-primary-500/20 rounded-full mix-blend-screen dark:mix-blend-lighten filter blur-[100px] animate-blob"></div>
         <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 bg-blue-500/30 dark:bg-blue-500/20 rounded-full mix-blend-screen dark:mix-blend-lighten filter blur-[100px] animate-blob animation-delay-2000"></div>

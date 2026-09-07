@@ -219,14 +219,14 @@ const AIChatbot = () => {
     <>
       <button
         onClick={() => setIsOpen(true)}
-        className={`fixed bottom-6 right-6 p-4 rounded-full bg-primary text-white shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 z-50 ${isOpen ? 'hidden' : 'flex'} items-center gap-2`}
+        className={`fixed bottom-4 sm:bottom-6 right-4 sm:right-6 p-4 rounded-full bg-primary text-white shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 z-50 ${isOpen ? 'hidden' : 'flex'} items-center gap-2`}
         aria-label="Open AI Tutor"
       >
         <MessageSquare size={24} />
       </button>
 
       <div
-        className={`fixed bottom-6 right-6 w-80 sm:w-96 h-[560px] max-h-[85vh] bg-white dark:bg-slate-900 rounded-2xl shadow-2xl flex flex-col z-50 overflow-hidden transition-all duration-300 origin-bottom-right ${isOpen ? 'scale-100 opacity-100' : 'scale-0 opacity-0 pointer-events-none'}`}
+        className={`fixed bottom-4 sm:bottom-6 right-4 sm:right-6 w-[calc(100vw-2rem)] sm:w-96 h-[560px] max-h-[85vh] bg-white dark:bg-slate-900 rounded-2xl shadow-2xl flex flex-col z-50 overflow-hidden transition-all duration-300 origin-bottom-right ${isOpen ? 'scale-100 opacity-100' : 'scale-0 opacity-0 pointer-events-none'}`}
       >
         {/* Header */}
         <div className="bg-gradient-to-r from-blue-600 to-indigo-600 p-4 flex items-center justify-between text-white flex-shrink-0">
